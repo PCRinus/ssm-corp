@@ -1,9 +1,15 @@
-<nav class="px-6 py-4">
-	<ul class="flex justify-between gap-4">
-		<p>SSM Corp</p>
+<script lang="ts">
+	import logo from '$lib/assets/logo.png';
+	import SideMenu from './side-menu.svelte';
+</script>
+
+<nav class="px-6 py-2">
+	<ul class="flex items-center justify-between gap-4">
+		<a href="/">
+			<img class="aspect-square h-24" alt="The project logo" src={logo} />
+		</a>
 		<div class="flex gap-4">
-			<li><a href="/about">Despre noi</a></li>
-			<li><a href="/contact">Contact</a></li>
+			<SideMenu />
 		</div>
 	</ul>
 </nav>
