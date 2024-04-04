@@ -9,7 +9,7 @@
 		<h1 class="text-3xl">Susținem Afaceri Prospere.</h1>
 	</div>
 
-	<Button class="bg-primary text-xl font-bold">Cere o ofertă</Button>
+	<Button class="bg-primary text-xl font-bold" href="/contact">Cere o ofertă</Button>
 
 	<!-- <Documents /> -->
 </div>
