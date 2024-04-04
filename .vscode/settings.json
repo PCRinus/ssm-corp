@@ -1,3 +1,6 @@
 {
-  "cSpell.language": "en,ro"
+  "cSpell.language": "en,ro",
+  "cSpell.enableFiletypes": [
+    "svelte"
+  ]
 }

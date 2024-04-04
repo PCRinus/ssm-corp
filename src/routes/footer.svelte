@@ -2,7 +2,7 @@
 	import logo from '$lib/assets/logo.png';
 </script>
 
-<footer class="bg-primary border-primary flex flex-shrink-0 flex-col gap-3 px-6 py-4 text-black">
+<footer class="bg-primary border-primary flex flex-shrink-0 flex-col gap-3 px-6 py-4 text-black rounded-t-md">
 	<div>
 		<img class="aspect-square h-24" alt="The project logo" src={logo} />
 	</div>
@@ -11,6 +11,9 @@
 		<h1 class="text-lg font-semibold uppercase">SC CD Safety Core SRL</h1>
 		<h2>
 			<span class="font-semibold">C.U.I: </span>12345678
+		</h2>
+    <h2>
+			<span class="font-semibold">Registrul Comerțului: </span>J35/1234/2021
 		</h2>
 	</div>
 
