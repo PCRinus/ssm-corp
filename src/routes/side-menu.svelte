@@ -16,11 +16,15 @@
 			<Menu />
 		</Button>
 	</Sheet.Trigger>
-	<Sheet.Content side="right">
-    <div class="flex flex-col gap-2">
-      <a href="/despre-noi">Despre noi</a>
-      <a href="/servicii">Servicii</a>
-      <a href="/contact">Contact</a>
-    </div>
+	<Sheet.Content class="flex flex-col justify-between" side="right">
+		<div class="flex flex-col gap-2">
+			<a href="/despre-noi">Despre noi</a>
+			<a href="/servicii">Servicii</a>
+			<a href="/contact">Contact</a>
+
+			<hr />
+		</div>
+
+		<p>Realizat de web Scope</p>
 	</Sheet.Content>
 </Sheet.Root>

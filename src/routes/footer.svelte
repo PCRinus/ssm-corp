@@ -2,13 +2,13 @@
 	import logo from '$lib/assets/logo.png';
 </script>
 
-<footer class="flex flex-col gap-3 py-4 px-6">
+<footer class="bg-primary border-primary flex flex-shrink-0 flex-col gap-3 px-6 py-4 text-black">
 	<div>
 		<img class="aspect-square h-24" alt="The project logo" src={logo} />
 	</div>
 
 	<div>
-		<h1 class="font-semibold uppercase text-lg">SC CD Safety Core SRL</h1>
+		<h1 class="text-lg font-semibold uppercase">SC CD Safety Core SRL</h1>
 		<h2>
 			<span class="font-semibold">C.U.I: </span>12345678
 		</h2>
@@ -23,11 +23,13 @@
 		</p>
 	</div>
 
-	<div class="flex flex-col gap-2 mt-2">
+	<div class="mt-2 flex flex-col gap-2">
 		<h3 class="text-lg font-semibold">Linkuri utile</h3>
 		<div class="flex flex-col">
-			<a class="underline text-base" href="https://www.inspectiamuncii.ro/web/itm-timis/">ITM Timis</a>
-			<a class="underline text-base" href="https://www.inspectiamuncii.ro">Inspectia muncii</a>
+			<a class="text-base underline" href="https://www.inspectiamuncii.ro/web/itm-timis/"
+				>ITM Timis</a
+			>
+			<a class="text-base underline" href="https://www.inspectiamuncii.ro">Inspectia muncii</a>
 		</div>
 	</div>
 </footer>

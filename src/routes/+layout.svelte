@@ -9,7 +9,7 @@
 
 <Navbar />
 
-<section class="flex flex-col gap-2 px-6">
+<section class="flex flex-col mb-4 px-6 flex-[1_0_auto]">
 	<slot />
 </section>
 
