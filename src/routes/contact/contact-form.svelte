@@ -30,7 +30,7 @@
 			<Form.Label>Companie</Form.Label>
 			<Input {...attrs} bind:value={$formData.company} />
 		</Form.Control>
-		<Form.Description>Compania dvs.</Form.Description>
+		<Form.Description>Numele companiei dvs. (optional)</Form.Description>
 		<Form.FieldErrors />
 	</Form.Field>
 
@@ -39,7 +39,6 @@
 			<Form.Label>Email</Form.Label>
 			<Input {...attrs} bind:value={$formData.email} />
 		</Form.Control>
-		<Form.Description>Adresa de email</Form.Description>
 		<Form.FieldErrors />
 	</Form.Field>
 
@@ -48,7 +47,9 @@
 			<Form.Label>Mesaj</Form.Label>
 			<Textarea {...attrs} bind:value={$formData.message} />
 		</Form.Control>
-		<Form.Description>Mesajul dvs. (minim 5 caractere, maxim 500)</Form.Description>
+		<Form.Description
+			>Mesajul dvs. ({$formData.message.length} din 500 de caractere, minim 5 caractere)</Form.Description
+		>
 		<Form.FieldErrors />
 	</Form.Field>
 
