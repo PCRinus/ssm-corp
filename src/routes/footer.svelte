@@ -12,10 +12,10 @@
 	<div>
 		<h1 class="text-lg font-semibold uppercase">SC CD Safety Core SRL</h1>
 		<h2>
-			<span class="font-semibold">C.U.I: </span>12345678
+			<span class="font-semibold">C.U.I: </span>45612751
 		</h2>
 		<h2>
-			<span class="font-semibold">Registrul Comerțului: </span>J35/1234/2021
+			<span class="font-semibold">Registrul Comerțului: </span>J35/535/2022
 		</h2>
 	</div>
 
@@ -32,6 +32,7 @@
 		<h3 class="text-lg font-semibold">Linkuri utile</h3>
 		<div class="flex flex-col">
 			<a class="text-base underline" href="/gdpr">Politica GDPR</a>
+      <a class="text-base underline" href="/politica-de-confidentialitate">Politica de confidențialitate</a>
 			<a class="text-base underline" href="https://www.inspectiamuncii.ro/web/itm-timis/"
 				>ITM Timis</a
 			>
