@@ -3,7 +3,7 @@
 </script>
 
 <footer
-	class="flex flex-shrink-0 flex-col gap-3 rounded-t-md border-primary bg-primary px-6 py-4 text-black"
+	class="mt-4 flex flex-shrink-0 flex-col gap-3 rounded-t-md border-primary bg-primary px-6 py-4 text-black"
 >
 	<div>
 		<img class="aspect-square h-24" alt="The project logo" src={logoBlack} />
@@ -32,11 +32,17 @@
 		<h3 class="text-lg font-semibold">Linkuri utile</h3>
 		<div class="flex flex-col">
 			<a class="text-base underline" href="/gdpr">Politica GDPR</a>
-      <a class="text-base underline" href="/politica-de-confidentialitate">Politica de confidențialitate</a>
-			<a class="text-base underline" href="https://www.inspectiamuncii.ro/web/itm-timis/"
-				>ITM Timis</a
+			<a class="text-base underline" href="/politica-de-confidentialitate"
+				>Politica de confidențialitate</a
 			>
-			<a class="text-base underline" href="https://www.inspectiamuncii.ro">Inspectia muncii</a>
+			<a
+				class="text-base underline"
+				href="https://www.inspectiamuncii.ro/web/itm-timis/"
+				target="_blank">ITM Timis</a
+			>
+			<a class="text-base underline" href="https://www.inspectiamuncii.ro" target="_blank"
+				>Inspectia muncii</a
+			>
 		</div>
 	</div>
 </footer>
