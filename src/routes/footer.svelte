@@ -1,10 +1,10 @@
 <script lang="ts">
-	import logo from '$lib/assets/logo.png';
+	import logoBlack from '$lib/assets/logo-black.png';
 </script>
 
 <footer class="bg-primary border-primary flex flex-shrink-0 flex-col gap-3 px-6 py-4 text-black rounded-t-md">
 	<div>
-		<img class="aspect-square h-24" alt="The project logo" src={logo} />
+		<img class="aspect-square h-24" alt="The project logo" src={logoBlack} />
 	</div>
 
 	<div>
