@@ -2,10 +2,10 @@
 	import * as Carousel from '$lib/components/ui/carousel/index.js';
 	import * as Card from '$lib/components/ui/card/index.js';
 	import Autoplay from 'embla-carousel-autoplay';
-	import velocitaLogo from '$lib/assets/Velocita-2020-LOGO.svg';
-	import proflexLogo from '$lib/assets/proflex.png';
-	import foxPainLogo from '$lib/assets/iconita-1.png';
-	import magneumHrLogo from '$lib/assets/Magneum HR new logo.webp';
+	import velocitaLogo from '$lib/assets/logos/velocita.svg';
+	import proflexLogo from '$lib/assets/logos/proflex.png';
+	import foxPainLogo from '$lib/assets/logos/fox-paint.png';
+	import magneumHrLogo from '$lib/assets/logos/magneum-hr.webp';
 </script>
 
 <Carousel.Root

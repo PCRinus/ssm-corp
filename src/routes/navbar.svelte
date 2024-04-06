@@ -1,6 +1,6 @@
 <script lang="ts">
-	import logoWhite from '$lib/assets/logo.png';
-	import logoBlack from '$lib/assets/logo-black.png';
+	import logoWhite from '$lib/assets/logos/ssm-corp-white.png';
+	import logoBlack from '$lib/assets/logos/ssm-corp-black.png';
 	import SideMenu from './side-menu.svelte';
 
   import { mode } from 'mode-watcher'

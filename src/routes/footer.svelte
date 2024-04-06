@@ -1,5 +1,5 @@
 <script lang="ts">
-	import logoBlack from '$lib/assets/logo-black.png';
+	import logoBlack from '$lib/assets/logos/ssm-corp-black.png';
 </script>
 
 <footer

@@ -1,12 +1,11 @@
 <script lang="ts">
-	import Menu from '@/components/icons/menu.svelte';
 	import Button from '@/components/ui/button/button.svelte';
 
 	import * as Sheet from '@/components/ui/sheet';
 	import * as Accordion from '@/components/ui/accordion';
 
 	import { navigating } from '$app/stores';
-	import { Moon, Sun } from 'lucide-svelte';
+	import { Menu, Moon, Sun } from 'lucide-svelte';
 	import { toggleMode } from 'mode-watcher';
 
 	let open = false;
