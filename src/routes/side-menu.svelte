@@ -11,6 +11,8 @@
 
 	let open = false;
 	$: if ($navigating) open = false;
+
+	const currentYear = new Date().getFullYear();
 </script>
 
 <Sheet.Root bind:open>
@@ -73,6 +75,9 @@
 			</div>
 		</div>
 
-		<p>Realizat de web Scope</p>
+		<div class="flex flex-col items-center justify-center">
+			<p class="text-gray-500">Realizat de SC Web Scope SRL</p>
+			<p class="text-gray-500">Copyright {currentYear}</p>
+		</div>
 	</Sheet.Content>
 </Sheet.Root>

@@ -42,6 +42,7 @@
 		"formsnap": "^1.0.0",
 		"lucide-svelte": "^0.364.0",
 		"mode-watcher": "^0.3.0",
+		"posthog-js": "^1.118.1",
 		"svelte-sonner": "^0.3.21",
 		"sveltekit-superforms": "^2.12.2",
 		"tailwind-merge": "^2.2.2",
