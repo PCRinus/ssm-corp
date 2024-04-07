@@ -4,7 +4,7 @@
 	import Documents from '@/assets/illustrations/documents.svelte';
 	import Stats from '@/assets/illustrations/stats.svelte';
 	import Invite from '@/assets/illustrations/invite.svelte';
-	import { ChevronRight } from 'lucide-svelte';
+	import Certification from '@/assets/illustrations/certification.svelte';
 </script>
 
 <div class="relative flex flex-col gap-6">
@@ -26,14 +26,6 @@
 			<Card.Content>
 				<Documents />
 			</Card.Content>
-			<Card.Footer>
-				<Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/ssm">
-					Detalii
-					<span class="scale-75">
-						<ChevronRight />
-					</span>
-				</Button>
-			</Card.Footer>
 		</Card.Root>
 
 		<Card.Root>
@@ -44,14 +36,6 @@
 			<Card.Content>
 				<Stats />
 			</Card.Content>
-			<Card.Footer>
-				<Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/ssm">
-					Detalii
-					<span class="scale-75">
-						<ChevronRight />
-					</span>
-				</Button>
-			</Card.Footer>
 		</Card.Root>
 
 		<Card.Root>
@@ -62,14 +46,17 @@
 			<Card.Content>
 				<Invite />
 			</Card.Content>
-			<Card.Footer>
-				<Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/ssm">
-					Detalii
-					<span class="scale-75">
-						<ChevronRight />
-					</span>
-				</Button>
-			</Card.Footer>
+		</Card.Root>
+
+		<Card.Root>
+			<Card.Header>
+				<Card.Title class="flex items-center gap-2">Certificat PRAM</Card.Title>
+				<Card.Description>Anual</Card.Description>
+			</Card.Header>
+			<Card.Content>
+				<Certification />
+			</Card.Content>
 		</Card.Root>
 	</div>
+	<Button class="bg-primary text-xl" href="/servicii">Vezi toate serviciile detaliate</Button>
 </div>

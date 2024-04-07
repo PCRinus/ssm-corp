@@ -76,7 +76,7 @@
 
 		<div class="flex flex-col items-center justify-center">
 			<p class="text-gray-500">Realizat de SC Web Scope SRL</p>
-			<p class="text-gray-500">Copyright {currentYear}</p>
+			<p class="text-gray-500">Copyright © {currentYear}</p>
 		</div>
 	</Sheet.Content>
 </Sheet.Root>
