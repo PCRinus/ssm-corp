@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Button from '@/components/ui/button/button.svelte';
 	import * as Card from '$lib/components/ui/card';
+	import Documents from '@/assets/illustrations/documents.svelte';
 </script>
 
 <div class="relative flex flex-col gap-6">
@@ -21,13 +22,15 @@
 				<Card.Title class="flex items-center gap-2">Documentație SSM / PSI</Card.Title>
 			</Card.Header>
 			<Card.Content>
-				<p>o singură dată</p>
+				<div class="">
+          <Documents />
+        </div>
 			</Card.Content>
 			<Card.Footer>
-				<Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/ssm">
+				<!-- <Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/ssm">
 					Detalii
 					<span class="scale-75"> </span>
-				</Button>
+				</Button> -->
 			</Card.Footer>
 		</Card.Root>
 	</div>
