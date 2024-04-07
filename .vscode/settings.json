@@ -1,13 +1,5 @@
 {
-  "cSpell.language": "en,ro",
-  "cSpell.enableFiletypes": [
-    "svelte"
-  ],
-  "cSpell.words": [
-    "accesezi",
-    "magneum",
-    "posthog",
-    "proflex",
-    "velocita"
-  ]
+	"cSpell.language": "en,ro",
+	"cSpell.enableFiletypes": ["svelte"],
+	"cSpell.words": ["accesezi", "magneum", "posthog", "proflex", "velocita"]
 }

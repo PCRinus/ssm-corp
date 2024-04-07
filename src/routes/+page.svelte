@@ -23,8 +23,8 @@
 			</Card.Header>
 			<Card.Content>
 				<div class="">
-          <Documents />
-        </div>
+					<Documents />
+				</div>
 			</Card.Content>
 			<Card.Footer>
 				<!-- <Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/ssm">

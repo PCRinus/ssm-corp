@@ -6,9 +6,9 @@
 	export let data: PageData;
 	export let form: ActionData;
 
-  $: if (form?.form.posted) {
-    toast.success('Formularul a fost trimis cu succes!');
-  }
+	$: if (form?.form.posted) {
+		toast.success('Formularul a fost trimis cu succes!');
+	}
 </script>
 
 <div class="flex flex-col gap-4">

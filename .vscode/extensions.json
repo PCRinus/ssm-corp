@@ -1,0 +1,10 @@
+{
+	"recommendations": [
+		"github.copilot",
+		"svelte.svelte-vscode",
+		"better-ts-errors.better-ts-errors",
+		"streetsidesoftware.code-spell-checker",
+		"eamodio.gitlens",
+		"esbenp.prettier-vscode"
+	]
+}

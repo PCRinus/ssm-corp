@@ -24,7 +24,7 @@
 			</p>
 		</Card.Content>
 		<Card.Footer>
-			<Button class="bg-primary flex items-center gap-[0.5] rounded-md" href="/servicii/ssm">
+			<Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/ssm">
 				Detalii
 				<span class="scale-75">
 					<ChevronRight />
@@ -50,7 +50,7 @@
 			</p>
 		</Card.Content>
 		<Card.Footer>
-			<Button class="bg-primary flex items-center gap-[0.5] rounded-md" href="/servicii/psi">
+			<Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/psi">
 				Detalii
 				<span class="scale-75">
 					<ChevronRight />
@@ -76,7 +76,7 @@
 		</Card.Content>
 		<Card.Footer>
 			<Button
-				class="bg-primary flex items-center gap-[0.5] rounded-md"
+				class="flex items-center gap-[0.5] rounded-md bg-primary"
 				href="/servicii/evaluare-riscuri"
 			>
 				Detalii

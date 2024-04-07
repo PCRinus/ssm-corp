@@ -3,9 +3,9 @@
 	import logoBlack from '$lib/assets/logos/ssm-corp-black.png';
 	import SideMenu from './side-menu.svelte';
 
-  import { mode } from 'mode-watcher'
+	import { mode } from 'mode-watcher';
 
-  $: logoPath = $mode === 'dark' ? logoWhite : logoBlack;
+	$: logoPath = $mode === 'dark' ? logoWhite : logoBlack;
 </script>
 
 <nav class="px-6 py-2">
