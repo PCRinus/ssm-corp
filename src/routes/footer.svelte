@@ -1,5 +1,6 @@
 <script lang="ts">
 	import logoBlack from '$lib/assets/logos/ssm-corp-black.png';
+	import FunUnderline from '@/assets/illustrations/fun-underline.svelte';
 </script>
 
 <footer
@@ -45,4 +46,6 @@
 			>
 		</div>
 	</div>
+
+  <FunUnderline />
 </footer>

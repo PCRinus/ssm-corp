@@ -5,6 +5,7 @@
 		"better-ts-errors.better-ts-errors",
 		"streetsidesoftware.code-spell-checker",
 		"eamodio.gitlens",
-		"esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "bradlc.vscode-tailwindcss"
 	]
 }
