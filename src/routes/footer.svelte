@@ -29,8 +29,8 @@
 		</p>
 	</div>
 
-	<div class="mt-2 flex flex-col gap-2">
-		<h3 class="text-lg font-semibold">Linkuri utile</h3>
+	<div class="mt-2 flex flex-col gap-1">
+		<h3 class="text-lg font-semibold">Link-uri utile</h3>
 		<div class="flex flex-col">
 			<a class="text-base underline" href="/gdpr">Politica GDPR</a>
 			<a class="text-base underline" href="/politica-de-confidentialitate"

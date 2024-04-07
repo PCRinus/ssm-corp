@@ -114,10 +114,7 @@
 			</p>
 		</Card.Content>
 		<Card.Footer>
-			<Button
-				class="flex items-center gap-[0.5] rounded-md bg-primary"
-				href="/servicii/pram"
-			>
+			<Button class="flex items-center gap-[0.5] rounded-md bg-primary" href="/servicii/pram">
 				Detalii
 				<span class="scale-75">
 					<ChevronRight />
@@ -125,4 +122,6 @@
 			</Button>
 		</Card.Footer>
 	</Card.Root>
+
+	<Button class="bg-primary text-xl" href="/contact">Scrie-ne un mesaj</Button>
 </div>
