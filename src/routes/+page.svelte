@@ -1,62 +1,40 @@
 <script lang="ts">
 	import Button from '@/components/ui/button/button.svelte';
-	import * as Card from '$lib/components/ui/card';
 	import Documents from '@/assets/illustrations/documents.svelte';
 	import Stats from '@/assets/illustrations/stats.svelte';
 	import Invite from '@/assets/illustrations/invite.svelte';
 	import Certification from '@/assets/illustrations/certification.svelte';
+	import Engineer from '@/assets/illustrations/engineer.svelte';
 </script>
 
-<div class="relative flex flex-col gap-6">
-	<div class="flex flex-col gap-2">
-		<h1 class="text-3xl">Susținem Afaceri Prospere.</h1>
-		<h1 class="text-3xl">Păstrăm Echipele În Siguranță.</h1>
+<main class="relative flex flex-col gap-4">
+	<div class="flex flex-col gap-4 text-center">
+		<h1 class="text-4xl font-bold">
+			Protejează-ți
+			<span class="text-primary">echipa și afacerea</span>
+		</h1>
+		<h2 class="text-lg font-semibold">
+			Cu SSM Corp iți realizezi toate actele necesare pentru afacerea ta. De la SSM/PSI, la
+			controale periodice, te ajutăm să fii în conformitate cu legea.
+		</h2>
 	</div>
 
-	<Button class="bg-primary text-xl" href="/contact">Cere o ofertă</Button>
-
-	<div class="flex flex-col gap-4">
-		<h2 class="text-2xl">Servicii SSM și Protecția Muncii în Timișoara</h2>
-
-		<Card.Root>
-			<Card.Header>
-				<Card.Title class="flex items-center gap-2">Documentație SSM / PSI</Card.Title>
-				<Card.Description>O singură dată</Card.Description>
-			</Card.Header>
-			<Card.Content>
-				<Documents />
-			</Card.Content>
-		</Card.Root>
-
-		<Card.Root>
-			<Card.Header>
-				<Card.Title class="flex items-center gap-2">Evaluarea riscurilor de accidentare</Card.Title>
-				<Card.Description>O singură dată</Card.Description>
-			</Card.Header>
-			<Card.Content>
-				<Stats />
-			</Card.Content>
-		</Card.Root>
-
-		<Card.Root>
-			<Card.Header>
-				<Card.Title class="flex items-center gap-2">Asistență SSM / PSI</Card.Title>
-				<Card.Description>Lunar / Trimestrial</Card.Description>
-			</Card.Header>
-			<Card.Content>
-				<Invite />
-			</Card.Content>
-		</Card.Root>
-
-		<Card.Root>
-			<Card.Header>
-				<Card.Title class="flex items-center gap-2">Certificat PRAM</Card.Title>
-				<Card.Description>Anual</Card.Description>
-			</Card.Header>
-			<Card.Content>
-				<Certification />
-			</Card.Content>
-		</Card.Root>
+	<div class="my-2 flex justify-center">
+		<Button class="bg-primary px-6 py-2 text-xl" href="/contact">Solicită o ofertă</Button>
 	</div>
-	<Button class="bg-primary text-xl" href="/servicii">Vezi toate serviciile detaliate</Button>
-</div>
+
+	<div class="flex flex-col gap-4 text-center">
+		<Engineer />
+		<h3 class="text-lg font-semibold">
+			Oferim
+			<span class="text-primary"> servicii complete și consultanță</span>
+			pentru orice tip de Persoană Juridică în Timișoara și împrejurimi
+		</h3>
+	</div>
+
+	<div class="my-2 flex justify-center">
+		<Button class="bg-primary px-6 py-2 text-xl" href="/servicii"
+			>Vezi toate serviciile noastre</Button
+		>
+	</div>
+</main>
