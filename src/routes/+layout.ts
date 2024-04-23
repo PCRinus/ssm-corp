@@ -7,5 +7,4 @@ export const load = async () => {
 			api_host: 'https://eu.posthog.com'
 		});
 	}
-	return;
 };

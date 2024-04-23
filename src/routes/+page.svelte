@@ -5,9 +5,10 @@
 	import Invite from '@/assets/illustrations/invite.svelte';
 	import Certification from '@/assets/illustrations/certification.svelte';
 	import Engineer from '@/assets/illustrations/engineer.svelte';
+	import Clients from './despre-noi/clients.svelte';
 </script>
 
-<main class="relative flex flex-col gap-4">
+<section class="relative flex flex-col gap-4">
 	<div class="flex flex-col gap-4 text-center">
 		<h1 class="text-4xl font-bold">
 			Protejează-ți
@@ -37,4 +38,24 @@
 			>Vezi toate serviciile noastre</Button
 		>
 	</div>
-</main>
+
+	<div class="my-4 text-center">
+		<h2 class="text-2xl font-semibold">Cum te ajutam?</h2>
+
+    <h1>Consultanta SSM/PSI</h1>
+    <h1>Instruiri introductive generala</h1>
+    <h1>Instruiri periodice</h1>
+    <h1>Documentatie completa</h1>
+    <h1>Reprezentarea firmei la controlate ITM</h1>
+	</div>
+
+	<div class="my-4 text-center">
+		<h2 class="text-2xl font-semibold">
+			Firmele care au
+			<span class="text-primary"> incredere </span>
+			in noi
+		</h2>
+
+		<Clients />
+	</div>
+</section>
