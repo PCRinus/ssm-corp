@@ -6,7 +6,11 @@ import { fail } from '@sveltejs/kit';
 
 export const load: PageServerLoad = async () => {
 	return {
-		form: await superValidate(zod(formSchema))
+		form: await superValidate(zod(formSchema)),
+    pageMeta: {
+			title: 'SSM Corp - Contact',
+			description: 'Contact'
+		}
 	};
 };
 
