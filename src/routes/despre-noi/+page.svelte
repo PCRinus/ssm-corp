@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Button from '@/components/ui/button/button.svelte';
-	import Clients from './clients.svelte';
+	import Clients from '../clients.svelte';
 </script>
 
 <section class="flex flex-col gap-6">

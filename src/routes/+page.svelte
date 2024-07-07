@@ -3,6 +3,7 @@
 	import Engineer from '@/assets/illustrations/engineer.svelte';
 	import Clients from './clients.svelte';
 	import { Check } from 'lucide-svelte';
+	import Experience from './experience.svelte';
 </script>
 
 <section class="relative flex flex-col gap-4">
@@ -66,7 +67,7 @@
 		</ul>
 	</section>
 
-	<div class="text-center">
+	<div class="text-center my-4">
 		<h2 class="text-2xl font-semibold">
 			Firmele care au
 			<span class="text-primary"> încredere </span>
@@ -74,5 +75,12 @@
 		</h2>
 
 		<Clients />
+	</div>
+
+	<div class="flex flex-col gap-8 text-center">
+		<h2 class="text-3xl font-semibold">
+			Experiența noastră, <span class="text-primary">în cifre</span>
+		</h2>
+		<Experience />
 	</div>
 </section>
