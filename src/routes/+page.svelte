@@ -1,11 +1,8 @@
 <script lang="ts">
 	import Button from '@/components/ui/button/button.svelte';
-	import Documents from '@/assets/illustrations/documents.svelte';
-	import Stats from '@/assets/illustrations/stats.svelte';
-	import Invite from '@/assets/illustrations/invite.svelte';
-	import Certification from '@/assets/illustrations/certification.svelte';
 	import Engineer from '@/assets/illustrations/engineer.svelte';
-	import Clients from './despre-noi/clients.svelte';
+	import Clients from './clients.svelte';
+	import { Check } from 'lucide-svelte';
 </script>
 
 <section class="relative flex flex-col gap-4">
@@ -39,20 +36,40 @@
 		>
 	</div>
 
-	<div class="my-4 text-center">
-		<h2 class="text-2xl font-semibold">Cum te ajutam?</h2>
+	<section class="my-4 flex flex-col gap-6 rounded-md bg-zinc-900 p-4">
+		<h2 class="text-2xl font-semibold">Cum te putem ajuta?</h2>
+		<ul class="flex flex-col gap-1 text-lg">
+			<li class="flex items-center gap-2">
+				<Check class="text-primary" />
+				Consultanță SSM/PSI
+			</li>
 
-    <h1>Consultanta SSM/PSI</h1>
-    <h1>Instruiri introductive generala</h1>
-    <h1>Instruiri periodice</h1>
-    <h1>Documentatie completa</h1>
-    <h1>Reprezentarea firmei la controlate ITM</h1>
-	</div>
+			<li class="flex items-center gap-2">
+				<Check class="text-primary" />
+				Instruire introductivă generală
+			</li>
 
-	<div class="my-4 text-center">
+			<li class="flex items-center gap-2">
+				<Check class="text-primary" />
+				Instruiri periodice
+			</li>
+
+			<li class="flex items-center gap-2">
+				<Check class="text-primary" />
+				Documentație completă
+			</li>
+
+			<li class="flex items-center gap-2">
+				<Check class="text-primary" />
+				Reprezentarea firmei la controlate ITM
+			</li>
+		</ul>
+	</section>
+
+	<div class="text-center">
 		<h2 class="text-2xl font-semibold">
 			Firmele care au
-			<span class="text-primary"> incredere </span>
+			<span class="text-primary"> încredere </span>
 			in noi
 		</h2>
 
