@@ -20,12 +20,12 @@
 			<Menu />
 		</Button>
 	</Sheet.Trigger>
-	<Sheet.Content class="flex flex-col justify-between" side="right">
+	<Sheet.Content class="flex flex-col justify-between px-8 py-12" side="right">
 		<div class="flex flex-col gap-4">
 			<a
 				data-sveltekit-preload-data="hover"
 				data-sveltekit-preload-code="viewport"
-				href="/despre-noi">Despre noi</a
+				href="/">Acasă</a
 			>
 			<Accordion.Root class="py-0">
 				<Accordion.Item value="servicii">

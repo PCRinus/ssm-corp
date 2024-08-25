@@ -37,7 +37,7 @@
 		>
 	</div>
 
-	<section class="my-4 flex flex-col gap-6 rounded-md bg-zinc-900 p-4">
+	<section class="my-4 flex flex-col gap-6 rounded-md bg-zinc-900 px-4 py-6">
 		<h2 class="text-2xl font-semibold">Cum te putem ajuta?</h2>
 		<ul class="flex flex-col gap-1 text-lg">
 			<li class="flex items-center gap-2">
@@ -82,5 +82,9 @@
 			Experiența noastră, <span class="text-primary">în cifre</span>
 		</h2>
 		<Experience />
+	</div>
+
+	<div class="my-2 flex justify-center">
+		<Button class="bg-primary px-6 py-2 text-2xl" href="/contact">Cere mai multe detalii</Button>
 	</div>
 </section>
