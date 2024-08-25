@@ -12,7 +12,10 @@
 </script>
 
 <div class="flex flex-col gap-4">
-	<h1 class="text-3xl">Contact</h1>
+	<h1 class="text-4xl font-bold">
+		Contactează-ne pentru siguranța echipei tale
+		<span class="text-primary">siguranța echipei tale</span>
+	</h1>
 
 	<ContactForm data={data.form} />
 

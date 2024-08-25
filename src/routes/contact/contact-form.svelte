@@ -15,7 +15,7 @@
 	const { form: formData, enhance } = form;
 </script>
 
-<form method="POST" use:enhance>
+<form class="flex flex-col gap-4" method="POST" use:enhance>
 	<Form.Field {form} name="fullName">
 		<Form.Control let:attrs>
 			<Form.Label>Nume</Form.Label>
@@ -45,7 +45,7 @@
 	<Form.Field {form} name="message">
 		<Form.Control let:attrs>
 			<Form.Label>Mesaj</Form.Label>
-			<Textarea {...attrs} bind:value={$formData.message} />
+			<Textarea {...attrs} bind:value={$formData.message} rows={6} />
 		</Form.Control>
 		<Form.Description
 			>Mesajul dvs. ({$formData.message.length} din 500 de caractere, minim 5 caractere)</Form.Description
@@ -53,5 +53,5 @@
 		<Form.FieldErrors />
 	</Form.Field>
 
-	<Form.Button class="mt-4">Trimite</Form.Button>
+	<Form.Button class="mt-4 px-6 py-7 text-lg">Contactează-ne</Form.Button>
 </form>
