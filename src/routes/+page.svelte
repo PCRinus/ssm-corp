@@ -19,7 +19,7 @@
 	</div>
 
 	<div class="my-2 flex justify-center">
-		<Button class="bg-primary px-6 py-2 text-xl" href="/contact">Solicită o ofertă</Button>
+		<Button class="bg-primary px-6 py-6 text-2xl" href="/contact">Solicită o ofertă</Button>
 	</div>
 
 	<div class="flex flex-col gap-4 text-center">
@@ -32,7 +32,7 @@
 	</div>
 
 	<div class="my-2 flex justify-center">
-		<Button class="bg-primary px-6 py-2 text-xl" href="/servicii"
+		<Button class="bg-ghostWhite px-6 py-2 text-xl" href="/servicii"
 			>Vezi toate serviciile noastre</Button
 		>
 	</div>
@@ -67,7 +67,7 @@
 		</ul>
 	</section>
 
-	<div class="text-center my-4">
+	<div class="my-4 text-center">
 		<h2 class="text-2xl font-semibold">
 			Firmele care au
 			<span class="text-primary"> încredere </span>
@@ -79,12 +79,16 @@
 
 	<div class="flex flex-col gap-8 text-center">
 		<h2 class="text-3xl font-semibold">
-			Experiența noastră, <span class="text-primary">în cifre</span>
+			<span class="text-primary">Performanțe</span> care protejează
 		</h2>
 		<Experience />
+		<p class="text-lg font-semibold">
+			Cifrele noastre reflectă angajamentul pentru siguranță prin expertiză dedicată și documentații
+			precise
+		</p>
 	</div>
 
-	<div class="my-2 flex justify-center">
-		<Button class="bg-primary px-6 py-2 text-2xl" href="/contact">Cere mai multe detalii</Button>
+	<div class="mt-4 flex justify-center">
+		<Button class="bg-ghostWhite px-6 py-2 text-xl" href="/contact">Cere mai multe detalii</Button>
 	</div>
 </section>

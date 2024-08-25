@@ -34,6 +34,7 @@ body {
 		--input: 268.24 42.5% 84.31%;
 		--ring: 240 5.03% 64.9%;
 		--radius: 0.5rem;
+		--ghostWhite: 240, 100%, 98%;
 	}
 
 	.dark {
@@ -57,6 +58,7 @@ body {
 		--input: 240 3.7% 15.88%;
 		--ring: 240 4.88% 83.92%;
 		--radius: 0.5rem;
+		--ghostWhite: 240, 100%, 98%;
 	}
 }
 
